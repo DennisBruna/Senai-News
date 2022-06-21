@@ -1,0 +1,171 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin-top: 10px;
+}
+/* ----------------------------------- CABEÇALHO ----------------------------------- */
+#cabecalho{
+    background-color: #005caa;
+    border: 1px solid #333;
+    height: 260px;
+    border: 1px solid #333;
+}
+#cabecalho img{
+    float: center;
+    padding-top: 10px;
+}
+#cabecalho ul{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+#cabecalho ul a{
+    color: #fff;
+    text-decoration: none;
+}
+/*
+.menu{
+    align-items: center;
+}
+*/
+/* ----------------------------------- CONTEÚDO ----------------------------------- */
+#conteudo{
+    /*border: 1px solid #333;*/
+    /*border-radius: 0.5em;*/
+    height: 721px;
+    padding: 10px 120px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.quadro2{
+    width: 33%;
+    height: 700px;
+    float: right;
+    background-color: rgb(199, 199, 199);
+    border-bottom-right-radius: 1em;
+    padding: 10px;
+}
+.quadro4{
+    width: 66%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    border-bottom-left-radius: 1em;
+    border:2px solid #005caa;
+}
+.quadro4 h3{
+    color: #fff;
+    background-color: #005caa;
+    text-align: center;
+    font-size: 20px
+}
+.quadro4 p{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e7e7e7;
+    border-top: 2px solid #005caa;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quadro4 a{
+    display: block;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border-bottom: 1px dotted #9e9e9e;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gratuito{
+    color: #005caa;
+    float: right;
+    margin-right: 8px;
+    padding: 0 10px;
+    border: 1px solid #005caa;
+    border-radius: 0.5em;
+}
+.quadro4 img{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    float: center;
+    padding: 10px 150px;
+}
+.quadropesquisar{
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 1em;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    line-height: 225%;
+}
+.quadropesquisar img{
+    width: 35px;
+    float: right;
+    background-color: rgb(134, 134, 134);
+    padding: 5px;
+    border-radius: 0.8em;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+/* ----------------------------------- RODAPÉ ----------------------------------- */
+.barrarodape{
+    display: flex;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 10px 0 10px 320px;
+    /*padding: 10px;*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.redes{
+    text-align: left;
+    width: 50%;
+    padding: 5px;
+}
+.redes img{
+    width: 4%;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.recebaemail{
+    float: left;
+    color: #999;
+    background-color: #fff;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.recebabotao{
+    background-color: #005caa;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#rodape{
+    background-color: #005caa;
+    border: 1px solid #333;
+    /*border-radius: 0.5em;*/
+    height: 130px;
+    padding: 20px;
+}
+#rodape img{
+    float: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+#rodape p{
+    color: #fff;
+    text-align: center;
+}
+/* ------------------------ SANFONADO ------------------------------- */
